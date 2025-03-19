@@ -13,7 +13,7 @@ const Counter: React.FC = () => {
   };
 
   const increaseHandler = () => {
-    dispatch(counterActions.increase(10)); // increase by 10
+    dispatch(counterActions.increase(10)); 
   };
 
   const decrementHandler = () => {
